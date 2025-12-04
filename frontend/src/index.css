@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-bg: #433E3B;
+  --color-warm-surface: #5A534F;
+  --color-warm-primary: #E0A86E;
+  --color-warm-text: #D9CDBF;
+  --color-warm-text-muted: #c7b49f;
+  --color-warm-paper: #F6F1E9;
+  --color-warm-paper-text: #4F4A45;
+
+  --font-display: "Lora", serif;
+  --font-body: "Karla", sans-serif;
+
+  --shadow-recessed: inset 3px 3px 6px #3a3633, inset -3px -3px 6px #4c4643;
+  --shadow-recessed-active: inset 3px 3px 6px #4b4440, inset -3px -3px 6px #69625e;
+}
+
+:root {
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: var(--color-warm-text);
+  background-color: var(--color-warm-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-warm-bg);
+  color: var(--color-warm-text);
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.paper-texture {
+  /* background-image removed */
+}
